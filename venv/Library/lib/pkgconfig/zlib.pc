@@ -1,0 +1,13 @@
+prefix=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library
+exec_prefix=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library
+libdir=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library/lib
+sharedlibdir=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library/lib
+includedir=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

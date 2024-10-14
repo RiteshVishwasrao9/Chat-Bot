@@ -1,0 +1,12 @@
+prefix=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library
+exec_prefix=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library
+libdir=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library/lib
+includedir=D:/Work/WORK R/IT WORK/Learnning/Python/Programs/Chat Bot/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
