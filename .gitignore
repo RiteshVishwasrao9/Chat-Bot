@@ -2,3 +2,6 @@
 /api
 /Api-Keys.txt
 /rag
+
+.env
+venv/
